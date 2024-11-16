@@ -1,4 +1,4 @@
-# Deplopy NextJs application to Infastructure using Terraform
+# Deplopy NextJs application to AWS Infastructure using Terraform
 
 # Project Overview
 
@@ -52,6 +52,11 @@ Before you begin, ensure you have the following:
 
 1. Clone the repository:
    git clone Your Repository URL
+
+   ```bash
+    git clone ttps://github.com/DylanCorr2020/terraform-portfolio-project.git
+   ```
+
    cd Your Project Directory
 
 2. Initialize Terraform:
@@ -65,7 +70,15 @@ Before you begin, ensure you have the following:
 
 5. Confirm the changes by typing `yes` when prompted.
 
-6. After successful application, you should see the S3 bucket created with your NextJS application files:
+6. You will to then uplaod the next.js application files to your S3 bucket
+
+```bash
+   aws s3 sync ../nextjs-blog/out s3://myblog-tf-bucket
+```
+
+Make sure you are feeding the right path... and s3:// is your S3 bucket name
+
+7. After successful application, you should see the S3 bucket created with your NextJS application files:
 
 ## Infastructure Components
 
