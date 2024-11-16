@@ -31,6 +31,9 @@ This architecture leverages S3 and Cloud Front to create a robust, scalable, and
 
 ## Project Demonstration Videos
 
+1. Initial NextJS Setup: [Watch the video](https://www.loom.com/share/87e3c808711f4c91b09cb0c893a8a7a5)
+   This video covers the initial setup of the NextJS application.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following:
@@ -131,8 +134,3 @@ As this project continues to evolve, I plan to enhance the following:
    - Optimize S3 bucket settings for improved performance and cost-efficiency
    - Enhance CloudFront distribution settings for better caching and security
    - Implement AWS WAF for additional security layers
-
-3. **Scaling and Performance Improvements**
-   - Implement auto-scaling for handling variable loads
-   - Optimize database queries and implement caching mechanisms
-   - Conduct load testing and performance tuning
